@@ -1,0 +1,1422 @@
+[
+    {
+        "name": "sw1Quito",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw2Guayaquil",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw3Cuenca",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw4SantoDomingo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw5Machala",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw6Manta",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw7Ambato",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw8Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw9Portoviejo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw10Esmeraldas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw11Riobamba",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw12Ibarra",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw13Tulcan",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw14Quevedo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw15Latacunga",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw16Chone",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw17Duran",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw18Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw19Salinas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw20Babahoyo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw21Quito",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw22Guayaquil",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw23Cuenca",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw24SantoDomingo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw25Machala",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw26Manta",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw27Ambato",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw28Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw29Portoviejo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw30Esmeraldas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw31Riobamba",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw32Ibarra",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw33Tulcan",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw34Quevedo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw35Latacunga",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw36Chone",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw37Duran",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw38Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw39Salinas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw40Babahoyo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw41Quito",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw42Guayaquil",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw43Cuenca",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw44SantoDomingo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw45Machala",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw46Manta",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw47Ambato",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw48Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw49Portoviejo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw50Esmeraldas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw51Riobamba",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw52Ibarra",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw53Tulcan",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw54Quevedo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw55Latacunga",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw56Chone",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw57Duran",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw58Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw59Salinas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw60Babahoyo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw61Quito",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw62Guayaquil",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw63Cuenca",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw64SantoDomingo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw65Machala",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw66Manta",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw67Ambato",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw68Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw69Portoviejo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw70Esmeraldas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw71Riobamba",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw72Ibarra",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw73Tulcan",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw74Quevedo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw75Latacunga",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw76Chone",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw77Duran",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw78Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw79Salinas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "sw80Babahoyo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "GigaEthernet1/3",
+            "GigaEthernet1/4",
+            "GigaEthernet1/5",
+            "GigaEthernet1/6",
+            "GigaEthernet1/7",
+            "GigaEthernet1/8",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2"
+        ]
+    },
+    {
+        "name": "ro1Quito",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro2Guayaquil",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro3Cuenca",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro4SantoDomingo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro5Machala",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro6Manta",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro7Ambato",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro8Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro9Portoviejo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro10Esmeraldas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro11Riobamba",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro12Ibarra",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro13Tulcan",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro14Quevedo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro15Latacunga",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro16Chone",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro17Duran",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro18Loja",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro19Salinas",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    },
+    {
+        "name": "ro20Babahoyo",
+        "interfaces": [
+            "GigaEthernet1/1",
+            "GigaEthernet1/2",
+            "TenGigaEthernet1/1",
+            "TenGigaEthernet1/2",
+            "TenGigaEthernet2/3",
+            "TenGigaEthernet2/4"
+        ]
+    }
+]

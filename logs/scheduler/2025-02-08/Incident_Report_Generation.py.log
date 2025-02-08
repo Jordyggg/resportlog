@@ -10398,3 +10398,66 @@ NameError: name 'extraer_logs' is not defined. Did you mean: 'extract_logs'?
 [2025-02-08T16:57:03.375+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:57:03.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-08T16:57:03.395+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:57:03.395+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
 [2025-02-08T16:57:03.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.108 seconds
+[2025-02-08T16:57:34.155+0000] {processor.py:186} INFO - Started process (PID=5823) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:57:34.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T16:57:34.223+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:57:34.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:57:34.616+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:57:34.749+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:57:34.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T16:57:34.810+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:57:34.810+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T16:57:34.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.764 seconds
+[2025-02-08T16:58:05.584+0000] {processor.py:186} INFO - Started process (PID=5888) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:58:05.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T16:58:05.588+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:58:05.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:58:05.607+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:58:05.629+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:58:05.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T16:58:05.801+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:58:05.801+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T16:58:05.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.252 seconds
+[2025-02-08T16:58:35.930+0000] {processor.py:186} INFO - Started process (PID=5953) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:58:35.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T16:58:35.934+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:58:35.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:58:35.952+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:58:35.973+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:58:35.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T16:58:36.149+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:58:36.149+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T16:58:36.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.251 seconds
+[2025-02-08T16:59:06.312+0000] {processor.py:186} INFO - Started process (PID=6018) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:59:06.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T16:59:06.316+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:59:06.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:59:06.338+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:59:06.367+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:59:06.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T16:59:06.392+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:59:06.392+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T16:59:06.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.124 seconds
+[2025-02-08T16:59:37.508+0000] {processor.py:186} INFO - Started process (PID=6082) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:59:37.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T16:59:37.513+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:59:37.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:59:37.643+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T16:59:37.694+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:59:37.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T16:59:37.720+0000] {logging_mixin.py:190} INFO - [2025-02-08T16:59:37.720+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T16:59:37.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.283 seconds
+[2025-02-08T17:00:08.528+0000] {processor.py:186} INFO - Started process (PID=6147) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:00:08.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T17:00:08.536+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:00:08.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:00:08.556+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:00:08.582+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:00:08.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T17:00:08.599+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:00:08.599+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T17:00:08.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.108 seconds
+[2025-02-08T17:00:39.122+0000] {processor.py:186} INFO - Started process (PID=6212) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:00:39.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T17:00:39.127+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:00:39.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:00:39.149+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:00:39.170+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:00:39.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T17:00:39.184+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:00:39.184+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T17:00:39.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 0.095 seconds
+[2025-02-08T17:01:15.511+0000] {processor.py:186} INFO - Started process (PID=6277) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:01:15.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T17:01:15.574+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:01:15.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:01:15.785+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:01:16.085+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:01:16.085+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T17:01:16.215+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:01:16.215+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T17:01:16.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 1.038 seconds
+[2025-02-08T17:02:24.963+0000] {processor.py:186} INFO - Started process (PID=6309) to work on /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:02:25.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Incident_Report_Generation.py for tasks to queue
+[2025-02-08T17:02:25.256+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:02:25.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:02:31.988+0000] {processor.py:925} INFO - DAG(s) 'Incident_Report_Generation' retrieved from /opt/airflow/dags/Incident_Report_Generation.py
+[2025-02-08T17:02:32.810+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:02:32.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-08T17:02:32.970+0000] {logging_mixin.py:190} INFO - [2025-02-08T17:02:32.970+0000] {dag.py:4180} INFO - Setting next_dagrun for Incident_Report_Generation to None, run_after=None
+[2025-02-08T17:02:33.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Incident_Report_Generation.py took 15.608 seconds
