@@ -15,4 +15,4 @@ notas.
 
 -- Incident_Report_Generation.py flujo de trabajo DAG airflow que se encarga de procesar los datos y generar reportes.
 
--- docker-comose_elk.yml es el docer de ELK debe ser ejecutado en otra carpeta.
+-- docker-comose_elk.yml es el Docker de ELK debe ser ejecutado en otra carpeta.
