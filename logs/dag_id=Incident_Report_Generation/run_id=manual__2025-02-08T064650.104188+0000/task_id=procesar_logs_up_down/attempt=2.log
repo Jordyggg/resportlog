@@ -1,0 +1,105 @@
+[2025-02-08T06:52:38.583+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-08T06:52:38.624+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Incident_Report_Generation.procesar_logs_up_down manual__2025-02-08T06:46:50.104188+00:00 [queued]>
+[2025-02-08T06:52:38.637+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Incident_Report_Generation.procesar_logs_up_down manual__2025-02-08T06:46:50.104188+00:00 [queued]>
+[2025-02-08T06:52:38.639+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-02-08T06:52:38.864+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): procesar_logs_up_down> on 2025-02-08 06:46:50.104188+00:00
+[2025-02-08T06:52:38.876+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4386) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-08T06:52:38.878+0000] {standard_task_runner.py:72} INFO - Started process 4388 to run task
+[2025-02-08T06:52:38.878+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Incident_Report_Generation', 'procesar_logs_up_down', 'manual__2025-02-08T06:46:50.104188+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/Incident_Report_Generation.py', '--cfg-path', '/tmp/tmpammavh4r']
+[2025-02-08T06:52:38.880+0000] {standard_task_runner.py:105} INFO - Job 215: Subtask procesar_logs_up_down
+[2025-02-08T06:52:38.944+0000] {task_command.py:467} INFO - Running <TaskInstance: Incident_Report_Generation.procesar_logs_up_down manual__2025-02-08T06:46:50.104188+00:00 [running]> on host 0b0ecc2e9e80
+[2025-02-08T06:52:39.046+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Incident_Report_Generation' AIRFLOW_CTX_TASK_ID='procesar_logs_up_down' AIRFLOW_CTX_EXECUTION_DATE='2025-02-08T06:46:50.104188+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-08T06:46:50.104188+00:00'
+[2025-02-08T06:52:39.048+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-08T06:52:39.049+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-08T06:52:39.050+0000] {logging_mixin.py:190} INFO - Current task name:procesar_logs_up_down state:running start_date:2025-02-08 06:52:38.625307+00:00
+[2025-02-08T06:52:39.050+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation and current dag run status:running
+[2025-02-08T06:52:39.051+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-08T06:52:39.126+0000] {logging_mixin.py:190} INFO - Reporte de caídas de interfaces (down)
+
+Timestamp de caída | Mensaje
+--------------------------------------------------------------------------------
+2025-02-08 00:34:29 | Interface is down sw63Cuenca TenGigaEthernet1/2
+2025-02-08 00:34:58 | Interface is down sw30Esmeraldas GigaEthernet1/8
+2025-02-08 00:40:37 | Interface is down sw55Latacunga TenGigaEthernet1/2
+2025-02-08 00:48:02 | Interface is down sw21Quito GigaEthernet1/4
+2025-02-08 00:50:44 | Interface is down sw53Tulcan GigaEthernet1/4
+2025-02-08 00:50:56 | Interface is down sw62Guayaquil GigaEthernet1/6
+2025-02-08 00:53:50 | Interface is down sw66Manta GigaEthernet1/4
+2025-02-08 00:54:14 | Interface is down sw23Cuenca GigaEthernet1/2
+2025-02-08 00:55:26 | Interface is down sw71Riobamba GigaEthernet1/8
+2025-02-08 00:59:20 | Interface is down sw57Duran GigaEthernet1/3
+2025-02-08 01:00:03 | Interface is down sw13Tulcan GigaEthernet1/5
+2025-02-08 01:01:55 | Interface is down sw43Cuenca GigaEthernet1/3
+2025-02-08 01:04:14 | Interface is down ro4SantoDomingo TenGigaEthernet2/3
+2025-02-08 01:06:30 | Interface is down ro9Portoviejo TenGigaEthernet1/1
+2025-02-08 01:08:13 | Interface is down ro3Cuenca GigaEthernet1/1
+2025-02-08 01:08:48 | Interface is down sw16Chone GigaEthernet1/6
+2025-02-08 01:12:30 | Interface is down ro15Latacunga TenGigaEthernet2/3
+2025-02-08 01:13:20 | Interface is down sw76Chone GigaEthernet1/4
+2025-02-08 01:19:17 | Interface is down sw28Loja GigaEthernet1/7
+2025-02-08 01:19:52 | Interface is down sw14Quevedo GigaEthernet1/6
+2025-02-08 01:19:59 | Interface is down sw23Cuenca GigaEthernet1/5
+2025-02-08 01:22:35 | Interface is down sw27Ambato GigaEthernet1/7
+2025-02-08 01:25:00 | Interface is down sw57Duran GigaEthernet1/7
+2025-02-08 01:25:12 | Interface is down ro7Ambato TenGigaEthernet2/3
+2025-02-08 01:26:03 | Interface is down sw79Salinas GigaEthernet1/5
+2025-02-08 01:27:34 | Interface is down sw24SantoDomingo GigaEthernet1/8
+2025-02-08 01:29:33 | Interface is down sw67Ambato GigaEthernet1/4
+2025-02-08 01:30:08 | Interface is down sw28Loja TenGigaEthernet1/1
+2025-02-08 01:34:13 | Interface is down sw7Ambato GigaEthernet1/3
+2025-02-08 01:37:33 | Interface is down sw22Guayaquil TenGigaEthernet1/2
+2025-02-08 01:38:38 | Interface is down ro19Salinas TenGigaEthernet1/1
+2025-02-08 01:41:24 | Interface is down sw39Salinas GigaEthernet1/2
+2025-02-08 01:44:04 | Interface is down ro5Machala GigaEthernet1/2
+[2025-02-08T06:52:39.128+0000] {logging_mixin.py:190} INFO - Reporte de activaciones de interfaces (up)
+
+Timestamp de activación | Mensaje
+--------------------------------------------------------------------------------
+2025-02-08 00:34:32 | Interface is up sw68Loja GigaEthernet1/2
+2025-02-08 00:34:43 | Interface is up ro15Latacunga TenGigaEthernet1/1
+2025-02-08 00:35:23 | Interface is up sw56Chone GigaEthernet1/8
+2025-02-08 00:37:32 | Interface is up ro15Latacunga TenGigaEthernet1/2
+2025-02-08 00:40:26 | Interface is up sw30Esmeraldas GigaEthernet1/8
+2025-02-08 00:41:30 | Interface is up sw63Cuenca TenGigaEthernet1/2
+2025-02-08 00:42:51 | Interface is up sw32Ibarra GigaEthernet1/5
+2025-02-08 00:44:15 | Interface is up sw45Machala TenGigaEthernet1/2
+2025-02-08 00:46:31 | Interface is up sw55Latacunga TenGigaEthernet1/2
+2025-02-08 00:56:21 | Interface is up sw74Quevedo GigaEthernet1/8
+2025-02-08 00:57:18 | Interface is up sw43Cuenca GigaEthernet1/8
+2025-02-08 00:58:53 | Interface is up sw51Riobamba GigaEthernet1/7
+2025-02-08 00:58:58 | Interface is up sw78Loja GigaEthernet1/6
+2025-02-08 00:59:30 | Interface is up sw66Manta GigaEthernet1/4
+2025-02-08 01:02:26 | Interface is up sw23Cuenca GigaEthernet1/2
+2025-02-08 01:05:58 | Interface is up sw41Quito GigaEthernet1/3
+2025-02-08 01:07:29 | Interface is up sw13Tulcan GigaEthernet1/5
+2025-02-08 01:10:56 | Interface is up sw19Salinas TenGigaEthernet1/1
+2025-02-08 01:11:56 | Interface is up ro12Ibarra TenGigaEthernet2/3
+2025-02-08 01:13:03 | Interface is up sw57Duran GigaEthernet1/3
+2025-02-08 01:14:21 | Interface is up ro3Cuenca GigaEthernet1/1
+2025-02-08 01:14:36 | Interface is up ro1Quito TenGigaEthernet1/2
+2025-02-08 01:15:12 | Interface is up ro9Portoviejo TenGigaEthernet1/1
+2025-02-08 01:15:14 | Interface is up sw16Chone GigaEthernet1/6
+2025-02-08 01:15:51 | Interface is up sw51Riobamba TenGigaEthernet1/1
+2025-02-08 01:18:50 | Interface is up sw76Chone GigaEthernet1/4
+2025-02-08 01:19:50 | Interface is up sw54Quevedo GigaEthernet1/2
+2025-02-08 01:22:50 | Interface is up ro15Latacunga TenGigaEthernet2/3
+2025-02-08 01:23:34 | Interface is up ro15Latacunga TenGigaEthernet2/4
+2025-02-08 01:24:44 | Interface is up sw28Loja GigaEthernet1/7
+2025-02-08 01:26:20 | Interface is up sw14Quevedo GigaEthernet1/6
+2025-02-08 01:26:28 | Interface is up ro17Duran TenGigaEthernet1/2
+2025-02-08 01:32:50 | Interface is up ro7Ambato TenGigaEthernet2/3
+2025-02-08 01:39:53 | Interface is up sw28Loja TenGigaEthernet1/1
+2025-02-08 01:43:19 | Interface is up sw44SantoDomingo GigaEthernet1/7
+2025-02-08 01:44:19 | Interface is up ro19Salinas TenGigaEthernet1/1
+[2025-02-08T06:52:39.129+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-08T06:52:39.141+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-08T06:52:39.142+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Incident_Report_Generation, task_id=procesar_logs_up_down, run_id=manual__2025-02-08T06:46:50.104188+00:00, execution_date=20250208T064650, start_date=20250208T065238, end_date=20250208T065239
+[2025-02-08T06:52:39.157+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-08T06:52:39.159+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-08T06:52:39.160+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation queued_at:2025-02-08 06:46:50.554709+00:00
+[2025-02-08T06:52:39.160+0000] {logging_mixin.py:190} INFO - Task hostname:0b0ecc2e9e80 operator:PythonOperator
+[2025-02-08T06:52:39.184+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-08T06:52:39.210+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-08T06:52:39.215+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

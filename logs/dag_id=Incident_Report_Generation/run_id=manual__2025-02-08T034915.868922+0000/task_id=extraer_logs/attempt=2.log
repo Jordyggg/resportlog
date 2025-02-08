@@ -1,0 +1,136 @@
+[2025-02-08T03:55:03.544+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-08T03:55:03.565+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T03:49:15.868922+00:00 [queued]>
+[2025-02-08T03:55:03.577+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T03:49:15.868922+00:00 [queued]>
+[2025-02-08T03:55:03.578+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-02-08T03:55:03.598+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extraer_logs> on 2025-02-08 03:49:15.868922+00:00
+[2025-02-08T03:55:03.607+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1700) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-08T03:55:03.609+0000] {standard_task_runner.py:72} INFO - Started process 1702 to run task
+[2025-02-08T03:55:03.611+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Incident_Report_Generation', 'extraer_logs', 'manual__2025-02-08T03:49:15.868922+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/Incident_Report_Generation.py', '--cfg-path', '/tmp/tmp1_o7u5g_']
+[2025-02-08T03:55:03.612+0000] {standard_task_runner.py:105} INFO - Job 51: Subtask extraer_logs
+[2025-02-08T03:55:03.664+0000] {task_command.py:467} INFO - Running <TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T03:49:15.868922+00:00 [running]> on host 0b0ecc2e9e80
+[2025-02-08T03:55:03.756+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Incident_Report_Generation' AIRFLOW_CTX_TASK_ID='extraer_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-02-08T03:49:15.868922+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-08T03:49:15.868922+00:00'
+[2025-02-08T03:55:03.758+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-08T03:55:03.759+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-08T03:55:03.760+0000] {logging_mixin.py:190} INFO - Current task name:extraer_logs state:running start_date:2025-02-08 03:55:03.567228+00:00
+[2025-02-08T03:55:03.761+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation and current dag run status:running
+[2025-02-08T03:55:03.761+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-08T03:55:03.773+0000] {base.py:84} INFO - Retrieving connection 'mysql_default'
+[2025-02-08T03:55:03.792+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Incident_Report_Generation.py", line 27, in extract_logs
+    cursor = connect_template_db("mysql_default")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Incident_Report_Generation.py", line 22, in connect_template_db
+    connection = mysql_hook.get_conn()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/mysql/hooks/mysql.py", line 224, in get_conn
+    return MySQLdb.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/MySQLdb/connections.py", line 199, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (1045, "Access denied for user 'user'@'172.27.0.3' (using password: YES)")
+[2025-02-08T03:55:03.810+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-08T03:55:03.811+0000] {logging_mixin.py:190} INFO - Task start:2025-02-08 03:55:03.567228+00:00 end:2025-02-08 03:55:03.810028+00:00 duration:0.2428
+[2025-02-08T03:55:03.813+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extraer_logs> dag:<DAG: Incident_Report_Generation> dagrun:<DagRun Incident_Report_Generation @ 2025-02-08 03:49:15.868922+00:00: manual__2025-02-08T03:49:15.868922+00:00, state:running, queued_at: 2025-02-08 03:49:16.276663+00:00. externally triggered: True>
+[2025-02-08T03:55:03.814+0000] {logging_mixin.py:190} INFO - Failure caused by (1045, "Access denied for user 'user'@'172.27.0.3' (using password: YES)")
+[2025-02-08T03:55:03.815+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=Incident_Report_Generation, task_id=extraer_logs, run_id=manual__2025-02-08T03:49:15.868922+00:00, execution_date=20250208T034915, start_date=20250208T035503, end_date=20250208T035503
+[2025-02-08T03:55:03.830+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-08T03:55:03.831+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 51 for task extraer_logs ((1045, "Access denied for user 'user'@'172.27.0.3' (using password: YES)"); 1702)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Incident_Report_Generation.py", line 27, in extract_logs
+    cursor = connect_template_db("mysql_default")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Incident_Report_Generation.py", line 22, in connect_template_db
+    connection = mysql_hook.get_conn()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/mysql/hooks/mysql.py", line 224, in get_conn
+    return MySQLdb.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/MySQLdb/connections.py", line 199, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (1045, "Access denied for user 'user'@'172.27.0.3' (using password: YES)")
+[2025-02-08T03:55:03.865+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-08T03:55:03.892+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-08T03:55:03.898+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

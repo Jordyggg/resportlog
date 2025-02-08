@@ -1,0 +1,28 @@
+[2025-02-08T01:47:00.787+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-08T01:47:00.869+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T01:44:13.666113+00:00 [queued]>
+[2025-02-08T01:47:00.910+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T01:44:13.666113+00:00 [queued]>
+[2025-02-08T01:47:00.912+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-08T01:47:00.987+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extraer_logs> on 2025-02-08 01:44:13.666113+00:00
+[2025-02-08T01:47:01.244+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=92) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-08T01:47:01.293+0000] {standard_task_runner.py:72} INFO - Started process 121 to run task
+[2025-02-08T01:47:01.296+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Incident_Report_Generation', 'extraer_logs', 'manual__2025-02-08T01:44:13.666113+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/Incident_Report_Generation.py', '--cfg-path', '/tmp/tmps_vwmn59']
+[2025-02-08T01:47:01.315+0000] {standard_task_runner.py:105} INFO - Job 34: Subtask extraer_logs
+[2025-02-08T01:47:02.066+0000] {task_command.py:467} INFO - Running <TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T01:44:13.666113+00:00 [running]> on host 0b0ecc2e9e80
+[2025-02-08T01:47:02.724+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Incident_Report_Generation' AIRFLOW_CTX_TASK_ID='extraer_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-02-08T01:44:13.666113+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-08T01:44:13.666113+00:00'
+[2025-02-08T01:47:02.730+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-08T01:47:02.737+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-08T01:47:02.745+0000] {logging_mixin.py:190} INFO - Current task name:extraer_logs state:running start_date:2025-02-08 01:47:00.878298+00:00
+[2025-02-08T01:47:02.750+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation and current dag run status:running
+[2025-02-08T01:47:02.759+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-08T01:47:02.762+0000] {logging_mixin.py:190} INFO - Error al leer el archivo: [Errno 2] No such file or directory: 'network_logs.log'
+[2025-02-08T01:47:02.878+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-08T01:47:02.933+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-08T01:47:02.941+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Incident_Report_Generation, task_id=extraer_logs, run_id=manual__2025-02-08T01:44:13.666113+00:00, execution_date=20250208T014413, start_date=20250208T014700, end_date=20250208T014702
+[2025-02-08T01:47:03.159+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-08T01:47:03.176+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-08T01:47:03.192+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation queued_at:2025-02-08 01:44:14.058854+00:00
+[2025-02-08T01:47:03.208+0000] {logging_mixin.py:190} INFO - Task hostname:0b0ecc2e9e80 operator:PythonOperator
+[2025-02-08T01:47:03.328+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-08T01:47:03.473+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

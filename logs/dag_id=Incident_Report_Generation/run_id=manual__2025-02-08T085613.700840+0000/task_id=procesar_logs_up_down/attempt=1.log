@@ -1,0 +1,145 @@
+[2025-02-08T08:57:01.877+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-08T08:57:01.948+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Incident_Report_Generation.procesar_logs_up_down manual__2025-02-08T08:56:13.700840+00:00 [queued]>
+[2025-02-08T08:57:01.980+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Incident_Report_Generation.procesar_logs_up_down manual__2025-02-08T08:56:13.700840+00:00 [queued]>
+[2025-02-08T08:57:01.985+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-08T08:57:02.463+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): procesar_logs_up_down> on 2025-02-08 08:56:13.700840+00:00
+[2025-02-08T08:57:02.487+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=6079) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-08T08:57:02.495+0000] {standard_task_runner.py:72} INFO - Started process 6091 to run task
+[2025-02-08T08:57:02.499+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Incident_Report_Generation', 'procesar_logs_up_down', 'manual__2025-02-08T08:56:13.700840+00:00', '--job-id', '288', '--raw', '--subdir', 'DAGS_FOLDER/Incident_Report_Generation.py', '--cfg-path', '/tmp/tmp0bmdz4bq']
+[2025-02-08T08:57:02.500+0000] {standard_task_runner.py:105} INFO - Job 288: Subtask procesar_logs_up_down
+[2025-02-08T08:57:02.834+0000] {task_command.py:467} INFO - Running <TaskInstance: Incident_Report_Generation.procesar_logs_up_down manual__2025-02-08T08:56:13.700840+00:00 [running]> on host 0b0ecc2e9e80
+[2025-02-08T08:57:03.560+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Incident_Report_Generation' AIRFLOW_CTX_TASK_ID='procesar_logs_up_down' AIRFLOW_CTX_EXECUTION_DATE='2025-02-08T08:56:13.700840+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-08T08:56:13.700840+00:00'
+[2025-02-08T08:57:03.572+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-08T08:57:03.594+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-08T08:57:03.607+0000] {logging_mixin.py:190} INFO - Current task name:procesar_logs_up_down state:running start_date:2025-02-08 08:57:01.962446+00:00
+[2025-02-08T08:57:03.610+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation and current dag run status:running
+[2025-02-08T08:57:03.619+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-08T08:57:04.087+0000] {logging_mixin.py:190} INFO - Reporte de caídas de interfaces (down)
+
+Timestamp de caída | Mensaje
+--------------------------------------------------------------------------------
+2025-02-08 00:34:29 | Interface is down sw63Cuenca TenGigaEthernet1/2
+2025-02-08 00:34:58 | Interface is down sw30Esmeraldas GigaEthernet1/8
+2025-02-08 00:40:37 | Interface is down sw55Latacunga TenGigaEthernet1/2
+2025-02-08 00:48:02 | Interface is down sw21Quito GigaEthernet1/4
+2025-02-08 00:50:44 | Interface is down sw53Tulcan GigaEthernet1/4
+2025-02-08 00:50:56 | Interface is down sw62Guayaquil GigaEthernet1/6
+2025-02-08 00:53:50 | Interface is down sw66Manta GigaEthernet1/4
+2025-02-08 00:54:14 | Interface is down sw23Cuenca GigaEthernet1/2
+2025-02-08 00:55:26 | Interface is down sw71Riobamba GigaEthernet1/8
+2025-02-08 00:59:20 | Interface is down sw57Duran GigaEthernet1/3
+2025-02-08 01:00:03 | Interface is down sw13Tulcan GigaEthernet1/5
+2025-02-08 01:01:55 | Interface is down sw43Cuenca GigaEthernet1/3
+2025-02-08 01:04:14 | Interface is down ro4SantoDomingo TenGigaEthernet2/3
+2025-02-08 01:06:30 | Interface is down ro9Portoviejo TenGigaEthernet1/1
+2025-02-08 01:08:13 | Interface is down ro3Cuenca GigaEthernet1/1
+2025-02-08 01:08:48 | Interface is down sw16Chone GigaEthernet1/6
+2025-02-08 01:12:30 | Interface is down ro15Latacunga TenGigaEthernet2/3
+2025-02-08 01:13:20 | Interface is down sw76Chone GigaEthernet1/4
+2025-02-08 01:19:17 | Interface is down sw28Loja GigaEthernet1/7
+2025-02-08 01:19:52 | Interface is down sw14Quevedo GigaEthernet1/6
+2025-02-08 01:19:59 | Interface is down sw23Cuenca GigaEthernet1/5
+2025-02-08 01:22:35 | Interface is down sw27Ambato GigaEthernet1/7
+2025-02-08 01:25:00 | Interface is down sw57Duran GigaEthernet1/7
+2025-02-08 01:25:12 | Interface is down ro7Ambato TenGigaEthernet2/3
+2025-02-08 01:26:03 | Interface is down sw79Salinas GigaEthernet1/5
+2025-02-08 01:27:34 | Interface is down sw24SantoDomingo GigaEthernet1/8
+2025-02-08 01:29:33 | Interface is down sw67Ambato GigaEthernet1/4
+2025-02-08 01:30:08 | Interface is down sw28Loja TenGigaEthernet1/1
+2025-02-08 01:34:13 | Interface is down sw7Ambato GigaEthernet1/3
+2025-02-08 01:37:33 | Interface is down sw22Guayaquil TenGigaEthernet1/2
+2025-02-08 01:38:38 | Interface is down ro19Salinas TenGigaEthernet1/1
+2025-02-08 01:41:24 | Interface is down sw39Salinas GigaEthernet1/2
+2025-02-08 01:44:04 | Interface is down ro5Machala GigaEthernet1/2
+2025-02-08 01:47:41 | Interface is down sw6Manta GigaEthernet1/5
+2025-02-08 01:48:05 | Interface is down sw41Quito GigaEthernet1/5
+2025-02-08 01:53:22 | Interface is down sw31Riobamba TenGigaEthernet1/2
+2025-02-08 01:53:31 | Interface is down sw10Esmeraldas GigaEthernet1/4
+2025-02-08 01:59:00 | Interface is down sw60Babahoyo GigaEthernet1/2
+2025-02-08 02:04:54 | Interface is down sw36Chone GigaEthernet1/6
+2025-02-08 02:08:26 | Interface is down sw50Esmeraldas GigaEthernet1/5
+2025-02-08 02:10:03 | Interface is down sw2Guayaquil GigaEthernet1/7
+2025-02-08 02:15:42 | Interface is down sw57Duran GigaEthernet1/5
+2025-02-08 02:18:59 | Interface is down sw67Ambato GigaEthernet1/7
+2025-02-08 02:19:01 | Interface is down ro12Ibarra TenGigaEthernet1/1
+2025-02-08 02:20:05 | Interface is down sw73Tulcan GigaEthernet1/4
+2025-02-08 02:28:10 | Interface is down sw61Quito GigaEthernet1/6
+2025-02-08 02:35:08 | Interface is down sw51Riobamba GigaEthernet1/8
+2025-02-08 02:36:28 | Interface is down sw73Tulcan GigaEthernet1/7
+2025-02-08 02:39:18 | Interface is down sw46Manta GigaEthernet1/7
+2025-02-08 02:39:36 | Interface is down sw27Ambato GigaEthernet1/3
+2025-02-08 02:42:01 | Interface is down sw58Loja TenGigaEthernet1/1
+2025-02-08 02:44:16 | Interface is down sw58Loja GigaEthernet1/5
+[2025-02-08T08:57:04.103+0000] {logging_mixin.py:190} INFO - Reporte de activaciones de interfaces (up)
+
+Timestamp de activación | Mensaje
+--------------------------------------------------------------------------------
+2025-02-08 00:34:32 | Interface is up sw68Loja GigaEthernet1/2
+2025-02-08 00:34:43 | Interface is up ro15Latacunga TenGigaEthernet1/1
+2025-02-08 00:35:23 | Interface is up sw56Chone GigaEthernet1/8
+2025-02-08 00:37:32 | Interface is up ro15Latacunga TenGigaEthernet1/2
+2025-02-08 00:40:26 | Interface is up sw30Esmeraldas GigaEthernet1/8
+2025-02-08 00:41:30 | Interface is up sw63Cuenca TenGigaEthernet1/2
+2025-02-08 00:42:51 | Interface is up sw32Ibarra GigaEthernet1/5
+2025-02-08 00:44:15 | Interface is up sw45Machala TenGigaEthernet1/2
+2025-02-08 00:46:31 | Interface is up sw55Latacunga TenGigaEthernet1/2
+2025-02-08 00:56:21 | Interface is up sw74Quevedo GigaEthernet1/8
+2025-02-08 00:57:18 | Interface is up sw43Cuenca GigaEthernet1/8
+2025-02-08 00:58:53 | Interface is up sw51Riobamba GigaEthernet1/7
+2025-02-08 00:58:58 | Interface is up sw78Loja GigaEthernet1/6
+2025-02-08 00:59:30 | Interface is up sw66Manta GigaEthernet1/4
+2025-02-08 01:02:26 | Interface is up sw23Cuenca GigaEthernet1/2
+2025-02-08 01:05:58 | Interface is up sw41Quito GigaEthernet1/3
+2025-02-08 01:07:29 | Interface is up sw13Tulcan GigaEthernet1/5
+2025-02-08 01:10:56 | Interface is up sw19Salinas TenGigaEthernet1/1
+2025-02-08 01:11:56 | Interface is up ro12Ibarra TenGigaEthernet2/3
+2025-02-08 01:13:03 | Interface is up sw57Duran GigaEthernet1/3
+2025-02-08 01:14:21 | Interface is up ro3Cuenca GigaEthernet1/1
+2025-02-08 01:14:36 | Interface is up ro1Quito TenGigaEthernet1/2
+2025-02-08 01:15:12 | Interface is up ro9Portoviejo TenGigaEthernet1/1
+2025-02-08 01:15:14 | Interface is up sw16Chone GigaEthernet1/6
+2025-02-08 01:15:51 | Interface is up sw51Riobamba TenGigaEthernet1/1
+2025-02-08 01:18:50 | Interface is up sw76Chone GigaEthernet1/4
+2025-02-08 01:19:50 | Interface is up sw54Quevedo GigaEthernet1/2
+2025-02-08 01:22:50 | Interface is up ro15Latacunga TenGigaEthernet2/3
+2025-02-08 01:23:34 | Interface is up ro15Latacunga TenGigaEthernet2/4
+2025-02-08 01:24:44 | Interface is up sw28Loja GigaEthernet1/7
+2025-02-08 01:26:20 | Interface is up sw14Quevedo GigaEthernet1/6
+2025-02-08 01:26:28 | Interface is up ro17Duran TenGigaEthernet1/2
+2025-02-08 01:32:50 | Interface is up ro7Ambato TenGigaEthernet2/3
+2025-02-08 01:39:53 | Interface is up sw28Loja TenGigaEthernet1/1
+2025-02-08 01:43:19 | Interface is up sw44SantoDomingo GigaEthernet1/7
+2025-02-08 01:44:19 | Interface is up ro19Salinas TenGigaEthernet1/1
+2025-02-08 01:47:29 | Interface is up sw22Guayaquil TenGigaEthernet1/2
+2025-02-08 01:47:53 | Interface is up ro11Riobamba GigaEthernet1/1
+2025-02-08 01:50:08 | Interface is up ro5Machala GigaEthernet1/2
+2025-02-08 01:53:05 | Interface is up sw6Manta GigaEthernet1/5
+2025-02-08 01:55:31 | Interface is up sw47Ambato GigaEthernet1/3
+2025-02-08 01:58:46 | Interface is up sw31Riobamba TenGigaEthernet1/2
+2025-02-08 01:59:36 | Interface is up sw4SantoDomingo GigaEthernet1/1
+2025-02-08 02:05:04 | Interface is up sw60Babahoyo GigaEthernet1/2
+2025-02-08 02:10:33 | Interface is up sw9Portoviejo GigaEthernet1/3
+2025-02-08 02:17:06 | Interface is up ro10Esmeraldas TenGigaEthernet1/2
+2025-02-08 02:21:41 | Interface is up sw57Duran GigaEthernet1/5
+2025-02-08 02:21:54 | Interface is up sw8Loja GigaEthernet1/4
+2025-02-08 02:24:34 | Interface is up sw10Esmeraldas TenGigaEthernet1/1
+2025-02-08 02:25:09 | Interface is up sw73Tulcan GigaEthernet1/4
+2025-02-08 02:27:14 | Interface is up ro11Riobamba TenGigaEthernet2/4
+2025-02-08 02:28:41 | Interface is up ro12Ibarra TenGigaEthernet1/1
+2025-02-08 02:29:23 | Interface is up sw63Cuenca GigaEthernet1/2
+2025-02-08 02:34:28 | Interface is up sw55Latacunga TenGigaEthernet1/1
+2025-02-08 02:35:58 | Interface is up sw71Riobamba GigaEthernet1/4
+2025-02-08 02:37:18 | Interface is up sw12Ibarra TenGigaEthernet1/1
+2025-02-08 02:38:35 | Interface is up sw1Quito GigaEthernet1/6
+2025-02-08 02:40:47 | Interface is up sw35Latacunga GigaEthernet1/4
+[2025-02-08T08:57:04.110+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-08T08:57:04.151+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-08T08:57:04.339+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Incident_Report_Generation, task_id=procesar_logs_up_down, run_id=manual__2025-02-08T08:56:13.700840+00:00, execution_date=20250208T085613, start_date=20250208T085701, end_date=20250208T085704
+[2025-02-08T08:57:04.590+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-08T08:57:04.603+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-08T08:57:04.604+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation queued_at:2025-02-08 08:56:13.923125+00:00
+[2025-02-08T08:57:04.605+0000] {logging_mixin.py:190} INFO - Task hostname:0b0ecc2e9e80 operator:PythonOperator
+[2025-02-08T08:57:04.785+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-08T08:57:04.826+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

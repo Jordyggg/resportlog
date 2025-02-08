@@ -1,0 +1,114 @@
+[2025-02-08T10:29:16.312+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-08T10:29:16.637+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T10:28:57.202216+00:00 [queued]>
+[2025-02-08T10:29:16.652+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T10:28:57.202216+00:00 [queued]>
+[2025-02-08T10:29:16.653+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-08T10:29:16.684+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extraer_logs> on 2025-02-08 10:28:57.202216+00:00
+[2025-02-08T10:29:16.710+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=7342) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-08T10:29:16.712+0000] {standard_task_runner.py:72} INFO - Started process 7351 to run task
+[2025-02-08T10:29:16.714+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Incident_Report_Generation', 'extraer_logs', 'manual__2025-02-08T10:28:57.202216+00:00', '--job-id', '334', '--raw', '--subdir', 'DAGS_FOLDER/Incident_Report_Generation.py', '--cfg-path', '/tmp/tmpzlu2l0a5']
+[2025-02-08T10:29:16.717+0000] {standard_task_runner.py:105} INFO - Job 334: Subtask extraer_logs
+[2025-02-08T10:29:16.816+0000] {task_command.py:467} INFO - Running <TaskInstance: Incident_Report_Generation.extraer_logs manual__2025-02-08T10:28:57.202216+00:00 [running]> on host 0b0ecc2e9e80
+[2025-02-08T10:29:17.139+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Incident_Report_Generation' AIRFLOW_CTX_TASK_ID='extraer_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-02-08T10:28:57.202216+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-08T10:28:57.202216+00:00'
+[2025-02-08T10:29:17.141+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-08T10:29:17.142+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-08T10:29:17.145+0000] {logging_mixin.py:190} INFO - Current task name:extraer_logs state:running start_date:2025-02-08 10:29:16.638670+00:00
+[2025-02-08T10:29:17.146+0000] {logging_mixin.py:190} INFO - Dag name:Incident_Report_Generation and current dag run status:running
+[2025-02-08T10:29:17.147+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-08T10:29:17.164+0000] {base.py:84} INFO - Retrieving connection 'mysql_default'
+[2025-02-08T10:29:17.302+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Incident_Report_Generation.py", line 25, in extract_logs
+    cursor.execute("SELECT * FROM network_logs")
+    ^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'execute'
+[2025-02-08T10:29:17.404+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-08T10:29:17.405+0000] {logging_mixin.py:190} INFO - Task start:2025-02-08 10:29:16.638670+00:00 end:2025-02-08 10:29:17.391252+00:00 duration:0.752582
+[2025-02-08T10:29:17.406+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extraer_logs> dag:<DAG: Incident_Report_Generation> dagrun:<DagRun Incident_Report_Generation @ 2025-02-08 10:28:57.202216+00:00: manual__2025-02-08T10:28:57.202216+00:00, state:running, queued_at: 2025-02-08 10:28:58.356545+00:00. externally triggered: True>
+[2025-02-08T10:29:17.408+0000] {logging_mixin.py:190} INFO - Failure caused by 'tuple' object has no attribute 'execute'
+[2025-02-08T10:29:17.409+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=Incident_Report_Generation, task_id=extraer_logs, run_id=manual__2025-02-08T10:28:57.202216+00:00, execution_date=20250208T102857, start_date=20250208T102916, end_date=20250208T102917
+[2025-02-08T10:29:17.477+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-08T10:29:17.480+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 334 for task extraer_logs ('tuple' object has no attribute 'execute'; 7351)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Incident_Report_Generation.py", line 25, in extract_logs
+    cursor.execute("SELECT * FROM network_logs")
+    ^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'execute'
+[2025-02-08T10:29:17.515+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-08T10:29:17.567+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-08T10:29:17.574+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
